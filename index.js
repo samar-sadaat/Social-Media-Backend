@@ -11,7 +11,7 @@ const mongodb = require('./db');
 
 require('dotenv').config();
 
-const bulkRoute = require('./bulkOpreation/bulkOpreation');
+// const bulkRoute = require('./bulkOpreation/bulkOpreation');
 
 // const path = require('path');
 const http = require("http");
@@ -65,7 +65,7 @@ exp.use('/comment', CommentRoute);
 exp.use('/reply', ReplyRoute);
 exp.use('/connection', ConnectionRoute);
 
-exp.use('/bulk', bulkRoute);
+// exp.use('/bulk', bulkRoute);
 
 
 const PORT = process.env.PORT || 4000;
