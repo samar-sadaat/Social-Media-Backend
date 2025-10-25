@@ -1,0 +1,13 @@
+# dependencies
+/node_modules
+/bulkOpreation
+
+# environment variables
+.env
+
+# logs
+logs
+*.log
+
+# system files
+.DS_Store
