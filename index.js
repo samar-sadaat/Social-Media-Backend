@@ -22,7 +22,7 @@ mongodb();
 const server = http.createServer(exp);
 const io = new Server(server, {
     cors: {
-        origin: "http://localhost:5173",
+        // origin: "http://localhost:5173",
         method: ["Get", "Post", "Put", "Delete"]
     }
 });
